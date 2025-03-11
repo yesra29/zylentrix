@@ -1,16 +1,61 @@
-# zylentrix
+ API Fetch - Flutter
 
-A new Flutter project.
+ Overview
+This Flutter project fetches and displays posts from an API using the `http` package. The app supports both light and dark themes, which can be toggled by the user.
 
-## Getting Started
+ Features
+- Fetches posts from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/posts)
+- Displays posts in a list view
+- Dark mode and light mode support
+- Theme toggle functionality
 
-This project is a starting point for a Flutter application.
+ Installation
+ Prerequisites
+Ensure you have the following installed:
+- Flutter SDK ([Download here](https://flutter.dev/docs/get-started/install))
+- Dart
+- Git (for version control, optional)
 
-A few resources to get you started if this is your first Flutter project:
+ Steps to Run the Project
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Install Dependencies**
+   ```sh
+   flutter pub get
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **Run the App**
+   ```sh
+   flutter run
+   ```
+
+ Project Structure
+```
+lib/
+├── main.dart                 # Entry point of the application
+├── post_screen/
+│   ├── post_screen.dart      # UI and logic for displaying posts
+```
+
+ Dependencies
+This project uses the following dependencies:
+- `flutter`: Flutter framework
+- `http`: For making network requests
+
+To install dependencies manually, run:
+```sh
+flutter pub add http
+```
+
+ API Used
+The app fetches posts from:
+```
+https://jsonplaceholder.typicode.com/posts
+```
+
+
+
