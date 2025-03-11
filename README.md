@@ -34,6 +34,10 @@ Ensure you have the following installed:
    ```
 
  Project Structure
+
+https://github.com/user-attachments/assets/91c79277-be96-4723-87d9-1c27adc71748
+
+
 ```
 lib/
 ├── main.dart                 # Entry point of the application
